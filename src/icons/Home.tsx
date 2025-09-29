@@ -9,7 +9,7 @@ export interface IconProps {
 export const Home: React.FC<IconProps> = ({ 
   size = 24, 
   className = '', 
-  title = 'Home' 
+  title = 'Home - D in D' 
 }) => {
   return (
     <svg
@@ -26,10 +26,12 @@ export const Home: React.FC<IconProps> = ({
       aria-label={title}
     >
       <title>{title}</title>
-      {/* House outline with centered roof */}
-      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-      {/* Door */}
-      <path d="M9 22V12h6v10" />
+      {/* Outer D */}
+      <circle cx="12" cy="12" r="10" />
+      <path d="M22 2v20" />
+      {/* Inner d */}
+      <circle cx="12" cy="12" r="5" />
+      <path d="M17 7v10" />
     </svg>
   );
 };

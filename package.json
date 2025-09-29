@@ -1,0 +1,58 @@
+{
+  "name": "@dehlwes/icons",
+  "version": "1.0.0",
+  "description": "A modern, high-quality icon package with stroke-based, scalable SVG icons and the dehlwes brand assets",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "dev": "rollup -c -w",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "typescript",
+    "dehlwes",
+    "ui",
+    "components",
+    "outline",
+    "stroke"
+  ],
+  "author": "Luis Dehlwes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dehlwes/icons"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.37",
+    "rollup": "^4.6.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.2.2"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  }
+}

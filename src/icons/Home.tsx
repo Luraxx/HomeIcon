@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from "react";
 
 export interface IconProps {
   size?: number | string;
@@ -26,12 +26,14 @@ export const Home: React.FC<IconProps> = ({
       aria-label={title}
     >
       <title>{title}</title>
-      {/* Outer D */}
-      <circle cx="12" cy="12" r="10" />
-      <path d="M22 2v20" />
-      {/* Inner d */}
-      <circle cx="12" cy="12" r="5" />
-      <path d="M17 7v10" />
+
+      {/* Außen-D */}
+      <path d="M5 3 V21" />
+      <path d="M5 3 C19 3, 19 21, 5 21" />
+
+      {/* Innen-D */}
+      <path d="M9 7 V17" />
+      <path d="M9 7 C16 7, 16 17, 9 17" />
     </svg>
   );
 };

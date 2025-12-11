@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Äußeres D -->
+  <path d="M 2 2 L 2 22 L 11 22 C 22 22, 22 2, 11 2 L 2 2" 
+        stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter" fill="none"/>
+  
+  <!-- Inneres D - kleinerer Bogen, gleicher rechter Ankerpunkt -->
+  <path d="M 5 5 L 5 19 L 11 19 C 18 19, 18 5, 11 5 L 5 5" 
+        stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter" fill="none"/>
+
+</svg>

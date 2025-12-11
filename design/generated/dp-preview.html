@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>D+P Logo Varianten</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, sans-serif; 
+            background: #fff; 
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+        }
+        h1 { font-weight: 300; color: #333; }
+        .grid {
+            display: flex;
+            gap: 3rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .logo-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem;
+            border-radius: 12px;
+            transition: all 0.2s;
+        }
+        .logo-item:hover {
+            background: #f5f5f5;
+        }
+        .logo-item svg {
+            width: 96px;
+            height: 96px;
+        }
+        .logo-item span {
+            font-size: 0.8rem;
+            color: #888;
+        }
+        .sizes {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-top: 2rem;
+            padding: 2rem;
+            background: #fafafa;
+            border-radius: 12px;
+        }
+        .sizes svg { margin: 0 0.5rem; }
+    </style>
+</head>
+<body>
+    <h1>D+P Logo (Dehlwes Portfolio)</h1>
+    <div class="grid">
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- Äußeres D -->   <!-- Vertikale Linie -->   <path d="M 4 2 L 4 22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- Obere horizontale Verbindung -->   <path d="M 4 2 L 14.0 2"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- Halbkreis-Bogen (rechte Seite) -->   <path d="M 14.0 2             A 10.0 10.0 0 0 1 14.0 22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>      <!-- Untere horizontale Verbindung -->   <path d="M 14.0 22 L 4 22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>    <!-- Inneres P -->   <!-- Vertikale Linie (geht durch bis unten) -->   <path d="M 7 5 L 7 19"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- Obere horizontale Verbindung -->   <path d="M 7 5 L 12.5 5"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- P-Bogen (obere Hälfte) -->   <path d="M 12.5 5             A 3.5 3.5 0 0 1 12.5 12"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>      <!-- Mittlere horizontale Verbindung zurück -->   <path d="M 12.5 12 L 7 12"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/> </svg>
+            <span>dp-logo-v1</span>
+        </div>
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- ÄUSSERES D -->   <!-- Vertikale Linie links -->   <line x1="4" y1="2" x2="4" y2="22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- Obere Linie -->   <line x1="4" y1="2" x2="10" y2="2"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- D-Bogen (Halbkreis rechts) -->   <path d="M 10 2             C 20 2, 20 22, 10 22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>      <!-- Untere Linie -->   <line x1="10" y1="22" x2="4" y2="22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>    <!-- INNERES P -->   <!-- Vertikale Linie -->   <line x1="7" y1="5" x2="7" y2="19"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- Obere Linie -->   <line x1="7" y1="5" x2="11" y2="5"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- P-Bogen (oberer Halbkreis) -->   <path d="M 11 5             C 17 5, 17 12, 11 12"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>      <!-- Mittlere Linie zurück -->   <line x1="11" y1="12" x2="7" y2="12"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/> </svg>
+            <span>dp-logo-v2</span>
+        </div>
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- ÄUSSERES D -->   <path d="M 4 2             L 4 22             L 10 22             C 20 22, 20 2, 10 2             L 4 2"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES P -->   <path d="M 7 5             L 7 19"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"/>      <path d="M 7 5             L 11 5             C 17 5, 17 12, 11 12             L 7 12"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/> </svg>
+            <span>dp-logo-precise</span>
+        </div>
+    </div>
+    <h2 style="font-weight: 300; color: #666; margin-top: 2rem;">Größen</h2>
+    <div class="sizes">
+        <span>16px</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- ÄUSSERES D -->   <path d="M 4 2             L 4 22             L 10 22             C 20 22, 20 2, 10 2             L 4 2"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES P -->   <path d="M 7 5             L 7 19"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"/>      <path d="M 7 5             L 11 5             C 17 5, 17 12, 11 12             L 7 12"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/> </svg>
+        <span>24px</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- ÄUSSERES D -->   <path d="M 4 2             L 4 22             L 10 22             C 20 22, 20 2, 10 2             L 4 2"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES P -->   <path d="M 7 5             L 7 19"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"/>      <path d="M 7 5             L 11 5             C 17 5, 17 12, 11 12             L 7 12"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/> </svg>
+        <span>32px</span>
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- ÄUSSERES D -->   <path d="M 4 2             L 4 22             L 10 22             C 20 22, 20 2, 10 2             L 4 2"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES P -->   <path d="M 7 5             L 7 19"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"/>      <path d="M 7 5             L 11 5             C 17 5, 17 12, 11 12             L 7 12"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/> </svg>
+        <span>48px</span>
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- ÄUSSERES D -->   <path d="M 4 2             L 4 22             L 10 22             C 20 22, 20 2, 10 2             L 4 2"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES P -->   <path d="M 7 5             L 7 19"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"/>      <path d="M 7 5             L 11 5             C 17 5, 17 12, 11 12             L 7 12"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/> </svg>
+        <span>64px</span>
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- ÄUSSERES D -->   <path d="M 4 2             L 4 22             L 10 22             C 20 22, 20 2, 10 2             L 4 2"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES P -->   <path d="M 7 5             L 7 19"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"/>      <path d="M 7 5             L 11 5             C 17 5, 17 12, 11 12             L 7 12"          stroke="currentColor"          stroke-width="2.5"          stroke-linecap="square"          stroke-linejoin="miter"         fill="none"/> </svg>
+    </div>
+</body>
+</html>

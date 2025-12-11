@@ -1,0 +1,37 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Äußeres D -->
+  <!-- Vertikale Linie -->
+  <path d="M 4 2 L 4 22" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  
+  <!-- Obere horizontale Verbindung -->
+  <path d="M 4 2 L 14.0 2" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  
+  <!-- Halbkreis-Bogen (rechte Seite) -->
+  <path d="M 14.0 2 
+           A 10.0 10.0 0 0 1 14.0 22" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>
+  
+  <!-- Untere horizontale Verbindung -->
+  <path d="M 14.0 22 L 4 22" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+
+  <!-- Inneres P -->
+  <!-- Vertikale Linie (geht durch bis unten) -->
+  <path d="M 7 5 L 7 19" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  
+  <!-- Obere horizontale Verbindung -->
+  <path d="M 7 5 L 12.5 5" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  
+  <!-- P-Bogen (obere Hälfte) -->
+  <path d="M 12.5 5 
+           A 3.5 3.5 0 0 1 12.5 12" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>
+  
+  <!-- Mittlere horizontale Verbindung zurück -->
+  <path d="M 12.5 12 L 7 12" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+</svg>

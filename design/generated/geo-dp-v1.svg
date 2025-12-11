@@ -1,0 +1,29 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Äußerer Halbkreis (D) - rechte Hälfte eines Kreises -->
+  <path d="M 2 2 
+           A 10.0 10.0 0 0 1 2 22" 
+        stroke="currentColor" 
+        stroke-width="2" 
+        stroke-linecap="round"
+        fill="none"/>
+  
+  <!-- Vertikale Linie links (D) -->
+  <line x1="2" y1="2" x2="2" y2="22" 
+        stroke="currentColor" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+  
+  <!-- Innerer Halbkreis (P) - nur oberer Teil -->
+  <path d="M 5 12.0 
+           A 5.0 5.0 0 0 1 5 5" 
+        stroke="currentColor" 
+        stroke-width="2" 
+        stroke-linecap="round"
+        fill="none"/>
+  
+  <!-- Vertikale Linie innen (P) -->
+  <line x1="5" y1="5" x2="5" y2="19" 
+        stroke="currentColor" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+</svg>

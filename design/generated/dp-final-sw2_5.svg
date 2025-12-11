@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ÄUSSERES D -->
+  <path d="M 2 2 L 2 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 2 2 L 10 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 10 2 A 10 10 0 0 1 10 22" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  <path d="M 10 22 L 2 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+
+  <!-- INNERES D (Abstand = Strichstärke) -->
+  <path d="M 7.0 7.0 L 7.0 17.0" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 7.0 7.0 L 10 7.0" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 10 7.0 A 5.0 5.0 0 0 1 10 17.0" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  <path d="M 10 17.0 L 7.0 17.0" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+</svg>

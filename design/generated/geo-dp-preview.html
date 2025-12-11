@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Geometrisches D+P Logo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, sans-serif; 
+            background: #fff; 
+            padding: 3rem;
+            min-height: 100vh;
+        }
+        h1 { 
+            text-align: center;
+            font-weight: 300; 
+            color: #333; 
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 3rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .logo-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem;
+            background: #fafafa;
+            border-radius: 16px;
+            transition: all 0.2s;
+        }
+        .logo-item:hover {
+            background: #f0f0f0;
+            transform: scale(1.02);
+        }
+        .logo-item svg {
+            width: 72px;
+            height: 72px;
+        }
+        .logo-item span {
+            font-size: 0.75rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Geometrisches D+P Logo</h1>
+    <p class="subtitle">Mathematisch präzise • Kreisbasiert • Quadratisches Format</p>
+    <div class="grid">
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- Äußerer Halbkreis (D) - rechte Hälfte eines Kreises -->   <path d="M 2 2             A 10.0 10.0 0 0 1 2 22"          stroke="currentColor"          stroke-width="2"          stroke-linecap="round"         fill="none"/>      <!-- Vertikale Linie links (D) -->   <line x1="2" y1="2" x2="2" y2="22"          stroke="currentColor"          stroke-width="2"          stroke-linecap="round"/>      <!-- Innerer Halbkreis (P) - nur oberer Teil -->   <path d="M 5 12.0             A 5.0 5.0 0 0 1 5 5"          stroke="currentColor"          stroke-width="2"          stroke-linecap="round"         fill="none"/>      <!-- Vertikale Linie innen (P) -->   <line x1="5" y1="5" x2="5" y2="19"          stroke="currentColor"          stroke-width="2"          stroke-linecap="round"/> </svg>
+            <span>geo-dp-v1</span>
+        </div>
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- Vertikale Hauptlinie (durchgehend) -->   <line x1="2" y1="2" x2="2" y2="22"          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>      <!-- Äußerer Halbkreis-Bogen (D) -->   <path d="M 2 2             C 22.0 2, 22.0 22, 2 22"          stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>      <!-- Innere vertikale Linie (P-Stamm) -->   <line x1="6" y1="4" x2="6" y2="20"          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>      <!-- Innerer Bogen (P) - nur obere Hälfte -->   <path d="M 6 4             C 16.0 4, 16.0 12.0, 6 12.0"          stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/> </svg>
+            <span>geo-dp-v2</span>
+        </div>
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- Äußerer Halbkreis - von oben nach unten -->   <path d="M 2.0 2.0             A 10.0 10.0 0 0 1 2.0 22.0"          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"         transform="rotate(0, 12.0, 12.0)"/>      <!-- Verbindungslinie links -->   <line x1="2.0" y1="2.0" x2="2.0" y2="22.0"          stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>            <!-- Innerer Halbkreis (kleiner, nur obere Hälfte) -->   <path d="M 5.5 12.0             A 5.5 5.5 0 0 1 5.5 3.0"          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>      <!-- Innere Verbindungslinie -->   <line x1="5.5" y1="3.0" x2="5.5" y2="19.0"          stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/> </svg>
+            <span>geo-dp-v3</span>
+        </div>
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- ÄUSSERE FORM (D) -->   <!-- Vertikale Linie -->   <line x1="2" y1="2" x2="2" y2="22"          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>      <!-- Halbkreis-Bogen rechts -->   <path d="M 2 2             A 10 10 0 0 1 2 22"          stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>      <!-- INNERE FORM (P) -->   <!-- Kürzere vertikale Linie -->   <line x1="6" y1="5" x2="6" y2="19"          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>      <!-- Kleinerer Halbkreis (nur obere Hälfte) -->   <path d="M 6 5             A 5 5 0 0 1 6 12.0"          stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>    </svg>
+            <span>geo-dp-v4</span>
+        </div>
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- Äußerer Bogen + Linie (D) -->   <path d="M 2 2 L 2 22 M 2 2 C 22 2, 22 22, 2 22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>      <!-- Innerer Bogen + Linie (P) -->   <path d="M 6 5 L 6 19 M 6 5 C 18 5, 18 12, 6 12"          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>    </svg>
+            <span>geo-dp-v5-minimal</span>
+        </div>
+        <div class="logo-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- ÄUSSERES D -->   <!-- Vertikale Linie -->   <line x1="2" y1="2" x2="2" y2="22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- Halbkreis (exakt 180°) -->   <path d="M 2 2             A 10.0 10.0 0 0 1 2 22"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>      <!-- INNERES P -->   <!-- Vertikale Linie -->   <line x1="6" y1="6" x2="6" y2="18"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>      <!-- Halbkreis oben (exakt 180°, kleiner) -->   <path d="M 6 6             A 4.5 4.5 0 0 1 6 13.0"          stroke="currentColor" stroke-width="2.5" stroke-linecap="square" fill="none"/>  </svg>
+            <span>geo-dp-v6-circles</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ÄUSSERES D -->
+  <path d="M 4 2 
+           L 4 22 
+           L 10 22 
+           C 20 22, 20 2, 10 2 
+           L 4 2" 
+        stroke="currentColor" 
+        stroke-width="2.5" 
+        stroke-linecap="square" 
+        stroke-linejoin="miter"
+        fill="none"/>
+
+  <!-- INNERES P -->
+  <path d="M 7 5 
+           L 7 19" 
+        stroke="currentColor" 
+        stroke-width="2.5" 
+        stroke-linecap="square"/>
+  
+  <path d="M 7 5 
+           L 11 5 
+           C 17 5, 17 12, 11 12 
+           L 7 12" 
+        stroke="currentColor" 
+        stroke-width="2.5" 
+        stroke-linecap="square" 
+        stroke-linejoin="miter"
+        fill="none"/>
+</svg>

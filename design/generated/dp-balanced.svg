@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ÄUSSERES D -->
+  <path d="M 2 2 L 2 22" stroke="currentColor" stroke-width="2.0" stroke-linecap="square"/>
+  <path d="M 2 2 L 10 2" stroke="currentColor" stroke-width="2.0" stroke-linecap="square"/>
+  <path d="M 10 2 A 10 10 0 0 1 10 22" stroke="currentColor" stroke-width="2.0" fill="none"/>
+  <path d="M 10 22 L 2 22" stroke="currentColor" stroke-width="2.0" stroke-linecap="square"/>
+
+  <!-- INNERES D: größer durch kleineren gap -->
+  <path d="M 5.5 5.5 L 5.5 18.5" stroke="currentColor" stroke-width="2.0" stroke-linecap="square"/>
+  <path d="M 5.5 5.5 L 10 5.5" stroke="currentColor" stroke-width="2.0" stroke-linecap="square"/>
+  <path d="M 10 5.5 A 6.5 6.5 0 0 1 10 18.5" stroke="currentColor" stroke-width="2.0" fill="none"/>
+  <path d="M 10 18.5 L 5.5 18.5" stroke="currentColor" stroke-width="2.0" stroke-linecap="square"/>
+</svg>

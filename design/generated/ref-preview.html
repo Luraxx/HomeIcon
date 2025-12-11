@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>D+P Logo - Referenz-Stil</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, sans-serif; 
+            background: #fff; 
+            padding: 3rem;
+        }
+        h1 { text-align: center; font-weight: 300; margin-bottom: 2rem; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem;
+            background: #fafafa;
+            border-radius: 16px;
+        }
+        .item svg { width: 80px; height: 80px; }
+        .item span { font-size: 0.75rem; color: #888; }
+    </style>
+</head>
+<body>
+    <h1>D+P Logo Varianten</h1>
+    <div class="grid">
+<div class="item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- ÄUSSERES D -->   <path d="M 4 2             L 4 22             L 12 22             C 22 22, 22 2, 12 2             Z"          stroke="currentColor"          stroke-width="2.2"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES D (kleiner, verschachtelt) -->   <path d="M 7 5             L 7 19             L 11 19             C 17 19, 17 5, 11 5             Z"          stroke="currentColor"          stroke-width="2.2"          stroke-linejoin="miter"         fill="none"/>  </svg><span>ref-v1</span></div>
+<div class="item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- ÄUSSERES D - geschlossene Form -->   <path d="M 3 2             L 3 22            L 11 22            A 10 10 0 0 0 11 2            Z"          stroke="currentColor"          stroke-width="2.2"          stroke-linejoin="miter"         fill="none"/>    <!-- INNERES D - geschlossene Form -->   <path d="M 6 5             L 6 19            L 11 19            A 7 7 0 0 0 11 5            Z"          stroke="currentColor"          stroke-width="2.2"          stroke-linejoin="miter"         fill="none"/>  </svg><span>ref-v2</span></div>
+<div class="item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- ÄUSSERES D -->   <!-- Linke vertikale Linie -->   <path d="M 3 2 L 3 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>   <!-- Obere horizontale -->   <path d="M 3 2 L 10 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>   <!-- Bogen rechts -->   <path d="M 10 2 A 10 10 0 0 1 10 22" stroke="currentColor" stroke-width="2.5" fill="none"/>   <!-- Untere horizontale -->   <path d="M 10 22 L 3 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>    <!-- INNERES D -->   <!-- Linke vertikale Linie -->   <path d="M 6 5 L 6 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>   <!-- Obere horizontale -->   <path d="M 6 5 L 10 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>   <!-- Bogen rechts (kleiner) -->   <path d="M 10 5 A 7 7 0 0 1 10 19" stroke="currentColor" stroke-width="2.5" fill="none"/>   <!-- Untere horizontale -->   <path d="M 10 19 L 6 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>  </svg><span>ref-v3-exact</span></div>
+<div class="item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- Äußere D-Form -->   <path d="M 3 2 V 22 H 9 A 10 10 0 0 0 9 2 Z"          stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter" fill="none"/>      <!-- Innere D-Form (Bögen treffen sich) -->   <path d="M 6 5 V 19 H 9 A 7 7 0 0 0 9 5 Z"          stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter" fill="none"/>  </svg><span>ref-v4-unified</span></div>
+<div class="item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">      <!-- Basis-Grid: 24x24, Padding 2px -->      <!-- ÄUSSERES D: Startet bei (2,2), endet bei (2,22) -->   <path d="M 2 2             L 2 22             L 12 22             A 10 10 0 0 0 12 2             L 2 2"          stroke="currentColor"          stroke-width="2.5"          stroke-linejoin="round"         fill="none"/>      <!-- INNERES D: Proportional kleiner -->   <path d="M 5 5             L 5 19             L 12 19             A 7 7 0 0 0 12 5             L 5 5"          stroke="currentColor"          stroke-width="2.5"          stroke-linejoin="round"         fill="none"/>  </svg><span>ref-v5-apple</span></div>
+<div class="item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">    <!-- Äußeres D -->   <path d="M 2 2 L 2 22 L 11 22 C 22 22, 22 2, 11 2 L 2 2"          stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter" fill="none"/>      <!-- Inneres D - kleinerer Bogen, gleicher rechter Ankerpunkt -->   <path d="M 5 5 L 5 19 L 11 19 C 18 19, 18 5, 11 5 L 5 5"          stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter" fill="none"/>  </svg><span>ref-v6-shared</span></div>
+    </div>
+</body>
+</html>

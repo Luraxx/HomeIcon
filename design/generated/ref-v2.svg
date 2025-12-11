@@ -1,0 +1,25 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- ÄUSSERES D - geschlossene Form -->
+  <path d="M 3 2 
+           L 3 22
+           L 11 22
+           A 10 10 0 0 0 11 2
+           Z" 
+        stroke="currentColor" 
+        stroke-width="2.2" 
+        stroke-linejoin="miter"
+        fill="none"/>
+
+  <!-- INNERES D - geschlossene Form -->
+  <path d="M 6 5 
+           L 6 19
+           L 11 19
+           A 7 7 0 0 0 11 5
+           Z" 
+        stroke="currentColor" 
+        stroke-width="2.2" 
+        stroke-linejoin="miter"
+        fill="none"/>
+
+</svg>

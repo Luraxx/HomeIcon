@@ -1,0 +1,20 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Äußerer Halbkreis - von oben nach unten -->
+  <path d="M 2.0 2.0 
+           A 10.0 10.0 0 0 1 2.0 22.0" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"
+        transform="rotate(0, 12.0, 12.0)"/>
+  
+  <!-- Verbindungslinie links -->
+  <line x1="2.0" y1="2.0" x2="2.0" y2="22.0" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        
+  <!-- Innerer Halbkreis (kleiner, nur obere Hälfte) -->
+  <path d="M 5.5 12.0 
+           A 5.5 5.5 0 0 1 5.5 3.0" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Innere Verbindungslinie -->
+  <line x1="5.5" y1="3.0" x2="5.5" y2="19.0" 
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

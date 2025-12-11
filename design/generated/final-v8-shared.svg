@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ÄUSSERES D -->
+  <path d="M 2 2 V 22 H 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+  <path d="M 10 2 A 10 10 0 0 1 10 22" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  <path d="M 2 2 H 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+
+  <!-- INNERES D - gleicher rechter Ankerpunkt -->
+  <path d="M 5 5 V 19 H 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+  <path d="M 10 5 A 7 7 0 0 1 10 19" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  <path d="M 5 5 H 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+</svg>

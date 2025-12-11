@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ÄUSSERES D -->
+  <path d="M 3 2 L 3 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 3 2 L 11 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 11 2 A 10 10 0 0 1 11 22" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  <path d="M 11 22 L 3 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+
+  <!-- INNERES D -->
+  <path d="M 6 5 L 6 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 6 5 L 11 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 11 5 A 7 7 0 0 1 11 19" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  <path d="M 11 19 L 6 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+</svg>

@@ -3,4 +3,5 @@ export { DehlwesWordmark } from './icons/DehlwesWordmark';
 export { DehlwesLogo, DehlwesLogoLight, DehlwesLogoMedium, DehlwesLogoBold } from './icons/DehlwesLogo';
 export { DehlwesSimple } from './icons/DehlwesSimple';
 export { FinanceosIcon } from './icons/FinanceosIcon';
+export { Legacy } from './icons/Legacy';
 export type { IconProps } from './icons/Home';
